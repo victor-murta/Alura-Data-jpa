@@ -20,7 +20,7 @@ public class Funcionario {
     private LocalDate dataContratacao;
 
 
-    @ManyToOne()
+    @ManyToOne
     @JoinColumn(name = "cargo_id" , nullable = false)
     private Cargo cargo;
 
